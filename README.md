@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gym App
+
+Gym App is a simple and responsive fitness website where users can explore different exercises and get useful information about each exercise. Users can also add exercises to their personal workout plan and manage their workouts easily.
+
+## Technologies Used
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* JSON
+* Git & GitHub
+
+## Key Features
+
+### 1. Exercise Library
+
+Users can browse different exercises and see basic information like exercise name, image, muscle groups, equipment, and difficulty level.
+
+### 2. Exercise Details
+
+Each exercise has a separate details page where users can see the exercise description, sets, reps, duration, calories, rating, and instructions.
+
+### 3. Workout Plan
+
+Users can add exercises to their workout plan and keep track of the exercises they want to include in their routine.
+
+### 4. Responsive Design
+
+The website is responsive and works on mobile phones, tablets, laptops, and desktop computers.
+
+### 5. Clean and Simple UI
+
+The website has a modern dark-themed design with simple navigation, clear information, and easy-to-use buttons.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and open the project folder:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd gym-app
+```
+
+Install the required packages:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About the Project
 
-## Learn More
+I created this project to practice building a real-world fitness website using Next.js, React, TypeScript, and Tailwind CSS. It helped me learn how to work with components, JSON data, dynamic routes, and responsive design.
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Shawon Mondal**
